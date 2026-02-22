@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "futura";
+  src: url("../fonts/futura/FuturaPTMedium.otf");
+}
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/inter/Inter-Regular.woff");
+}
+
+// lightmode
+$colour01: #3b2f2f;
+$colour02: #f3f3f3;
+$colour03: #128482;
+$colour04: #7a6464;
+$colour05: #d0491e;
+
+// darkmode
+$colour06: #e6e1e1;
+$colour07: #1e1a1a;
+$colour08: #3fa9a1;
+$colour09: #9c8686;
+$colour10: #e06a4a;
+
+// fonts
+$font1: "futura";
+$font2: "inter";
+@font-face {
+  font-family: "futura";
+  src: url("../fonts/futura/FuturaPTMedium.otf");
+}
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/inter/Inter-Regular.woff");
+}
+
+// lightmode
+$colour01: #3b2f2f;
+$colour02: #f3f3f3;
+$colour03: #128482;
+$colour04: #7a6464;
+$colour05: #d0491e;
+
+// darkmode
+$colour06: #e6e1e1;
+$colour07: #1e1a1a;
+$colour08: #3fa9a1;
+$colour09: #9c8686;
+$colour10: #e06a4a;
+
+// fonts
+$font1: "futura";
+$font2: "inter";
+
+// padding
+$space-unit: 7px;
+$x-padding-desktop: $space-unit * 3;
+$y-padding-desktop: $space-unit;
+
+// sizes
+$header-height: $space-unit * 10;
+$route-height: calc(100vh - $header-height);

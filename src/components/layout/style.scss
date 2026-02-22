@@ -1,0 +1,16 @@
+@import "../../display/style/variables.scss";
+
+.header {
+  display: flex;
+  max-height: $header-height;
+  min-height: $header-height;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: $y-padding-desktop $x-padding-desktop;
+  .header-title-container {
+    .header-title {
+      font-size: $space_unit * 6;
+      text-align: center;
+    }
+  }
+}
