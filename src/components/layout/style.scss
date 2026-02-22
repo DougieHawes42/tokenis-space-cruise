@@ -1,16 +1,20 @@
-@import "../../display/style/variables.scss";
+@import "../../display/style/variables";
 
 .header {
-  display: flex;
-  max-height: $header-height;
-  min-height: $header-height;
-  justify-content: space-between;
-  overflow: hidden;
   padding: $y-padding-desktop $x-padding-desktop;
   .header-title-container {
     .header-title {
       font-size: $space_unit * 6;
       text-align: center;
+      .header-title-initial {
+        color: $colour3;
+        font-family: $font1;
+        text-shadow:
+          -1px -1px 0 $colour1,
+          1px -1px 0 $colour1,
+          -1px 1px 0 $colour1,
+          1px 1px 0 $colour1;
+      }
     }
   }
 }

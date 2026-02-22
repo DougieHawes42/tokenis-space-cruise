@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 import "./display/style/style.scss";
 
@@ -10,13 +10,16 @@ import Game from "./components/routes/Game";
 import Home from "./components/routes/Home";
 
 const App = () => {
+  const [gamePlaying, setGamePlaying] = useState(false);
+
   return (
     <div className="app">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/work" element={<Game />} />
-      </Routes>
+      {gamePlaying ? (
+        <Game onClick={() => setGamePlaying(false)} />
+      ) : (
+        <Home onClick={() => setGamePlaying(true)} />
+      )}
     </div>
   );
 };
