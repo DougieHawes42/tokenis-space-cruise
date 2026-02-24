@@ -10,7 +10,7 @@ import Game from "./components/routes/Game";
 import Home from "./components/routes/Home";
 
 const App = () => {
-  const [gamePlaying, setGamePlaying] = useState(false);
+  const [gamePlaying, setGamePlaying] = useState(true);
 
   return (
     <div className="app">
